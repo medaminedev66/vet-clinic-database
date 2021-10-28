@@ -48,9 +48,8 @@ CREATE TABLE vets(
 CREATE TABLE specializations (
   species_id INT,
   vets_id INT,
-  PRIMARY KEY (species_id, vets_id),
-  CONSTRAINT fk_species FOREIGN KEY(species_id) REFERENCES species(id),
-  CONSTRAINT fk_vets FOREIGN KEY(vets_id) REFERENCES vets(id)
+  CONSTRAINT fk_species FOREIGN KEY(species_id) REFERENCES species(id) ON DELETE CASCADE,
+  CONSTRAINT fk_vets FOREIGN KEY(vets_id) REFERENCES vets(id) ON DELETE CASCADE
 );
 
 CREATE TABLE visits (
