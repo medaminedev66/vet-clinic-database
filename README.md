@@ -1,3 +1,6 @@
+![drawSQL-export-2021-11-02_13_15](https://user-images.githubusercontent.com/77190203/139847197-7d63e5b2-fe46-4f22-b346-2330c6332c68.png)
+
+
 # curriculum-databases-projects-template
 
 > This template should be used for database related projects at Microverse.
